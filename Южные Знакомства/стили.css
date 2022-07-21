@@ -1,0 +1,162 @@
+body {
+    background-image: url("img/fon-images.jpg");
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info p{ 
+    color: #000030;
+    font-style: italic;
+
+}
+
+.nameweb{
+    text-align: center;
+    text-transform:uppercase;
+    color: tomato;
+    
+}
+
+.first-row-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.short{
+    width: 600px;
+    height: 150px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+   
+    }
+
+    .short:hover{
+        opacity: 0.9;
+    }
+
+.bio{
+    width: 600px;
+    height: 520px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+
+}
+
+    .bio:hover{
+    opacity: 0.9;
+}
+
+.friends{
+    
+    width: 200px;
+    height: 200px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+}
+
+    .friends:hover{
+    opacity: 0.9;
+}
+
+.avatarka{
+    width: 201px;
+    height: 204px;
+    border-radius: 50%;
+    outline:3px solid rgb(192, 94, 94);
+    outline-offset: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+}
+
+.hobby{
+    width: 600px;
+    height: 250px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+}
+   .hobby:hover{
+    opacity: 0.9;
+}
+.work{
+    width: 600px;
+    height: 170px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+}
+.work:hover{
+    opacity: 0.9;
+}
+.social{
+    width: 600px;
+    height: 120px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+}
+.social:hover{
+    opacity: 0.9;
+}
+.connect{
+    width: 600px;
+    height: 220px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+}
+.connect:hover{
+    opacity: 0.9;
+}
+.banner{
+    width: 150px;
+    height: 90px;
+    background-color: rgb(196, 181, 181);
+    opacity: 0.7;
+    margin: 15px 20px;
+    padding: 7px;
+    border:2px yellow solid ;
+    cursor: pointer;
+}
+.banner:hover{
+    opacity: 0.9;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 20px;
+}
